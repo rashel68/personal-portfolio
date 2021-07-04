@@ -45,6 +45,12 @@ h3{
     background-position: right;
     margin-bottom: 100px;
 }
+.ex-full-part{
+    text-align: center;
+}
+.ex-full-part h2{
+    padding-bottom: 25px;
+}
 .ex-section{
     display: flex;
     margin-bottom: 100px;
@@ -64,13 +70,13 @@ h3{
 }
 
 .ex-border1{
-    border-left: 7px solid tomato;
-    border-image-source: linear-gradient(tomato, orange);
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange);
     border-image-slice: 1;
     
 }
 .ex-border2{
-    border-left: 6px solid transparent;
+    border-left: 6px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
