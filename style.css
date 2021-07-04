@@ -58,21 +58,21 @@ h3{
     height: 380px;
     padding: 0px 15px;
     box-shadow: 10px 10px 30px gray;
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
     text-align: justify;
     
 }
+
 .ex-border1{
-    border-left: 6px solid;
-    border-image: linear-gradient(tomato, orange);
+    border-left: 7px solid tomato;
+    border-image-source: linear-gradient(tomato, orange);
     border-image-slice: 1;
     
 }
 .ex-border2{
-    border-left: 6px solid;
+    border-left: 6px solid transparent;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
-    
 }
 #ex-item p{
     color: gray;
